@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"rel="stylesheet"/>
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <title>Login Page</title>
+     <!--Bootsrap 4 CDN-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">   
+     <!--Fontawesome CDN-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+     <!--Custom styles-->
+    <link rel="stylesheet" href="../css/login.css" />
+  </head>
+
+  <body>
+<!-- navbar start -->
+     <nav>
+      <div class="heading">
+        <h4 style="font-family: italic">World Food Tour</h4>
+      </div>
+      <ul class="nav-links">
+        <li><a class="active" href="http://localhost:6500/home">Home</a></li>
+        <li><a href="http://localhost:6500/about">About</a></li>
+        <li><a href="http://localhost:6500/service">Services</a></li>
+        <li><a href="http://localhost:6500/contact">Contact</a></li>
+        <li><a href="http://localhost:6500/login">login</a></li>
+      </ul>
+    </nav>
+
+    <!-- navbar ends -->
+
+    <!-- login start -->
+    <div class="container">
+        <div class="d-flex justify-content-center h-100">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Sign In</h3>
+                    
+                </div>
+                <div class="card-body">
+                    <form method="post" action="/login">
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Enter email id..." name="email">
+                            
+                        </div>
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-key"></i></span>
+                            </div>
+                            <input type="password" class="form-control" placeholder="password" name="password">
+                        </div>
+                        <div class="row align-items-center remember">
+                            <input type="checkbox">Remember Me
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Login" class="btn float-right login_btn">
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer">
+                    <div class="d-flex justify-content-center links">
+                        Don't have an account?<a href="http://localhost:6500/signup">Sign Up</a>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- login ends -->
+
+
+      <!-- footer start -->
+
+      <div class="footer-container">
+        <div class="footer">
+          <div class="footer-heading footer-1">
+            <!-- <h2>About Us</h2>
+            <a href="#">Blog</a>
+            <a href="#">Demo</a>
+            <a href="#">Customers</a>
+            <a href="#">Investors</a>
+            <a href="#">Terms of Service</a> -->
+          </div>
+          <div class="footer-heading footer-2">
+            <!-- <h2>Contact Us</h2>
+            <a href="#">Jobs</a>
+            <a href="#">Support</a>
+            <a href="#">Contact</a>
+            <a href="#">Sponsorships</a> -->
+          </div>
+          <div class="footer-heading footer-3">
+            <!-- <h2>Social Media</h2>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">YouTube</a>
+            <a href="#">Twitter</a> -->
+          </div>
+          </div>
+        </div>
+      </div>
+    <!-- footer end -->
+
+
+<!-- scripts cdn -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+
+
+    </body>
+    </html>
