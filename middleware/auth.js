@@ -4,7 +4,6 @@ const authMiddleware = (req, res, next) => {
 
 // verification of token
     const token = req.cookies.jwt
-    // console.log(req.cookies)
     if(token){
         try{
             const userData = jwt.verify(token, process.env.AUTH_SECRET_KEY)

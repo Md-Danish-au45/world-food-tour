@@ -10,7 +10,7 @@ const signupSchema = new mongoose.Schema({
         
     },
     password:{
-        type:Number,
+        type:String,
     },
     repeat_password:{
         type:String,

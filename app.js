@@ -12,18 +12,12 @@ app.use(express.json())
 app.use(express.static("public"))
 app.use(express.static('files'))
 app.use(cookieParse())
-// app.use(bodyParser)
 
 
 app.use(express.urlencoded({extended:true}))
 
 app.use('/',userRouter)
 app.use("/",homeRouter)
-
-// calling nodemailer
-
-
-
 
 
 // calling DB

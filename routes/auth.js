@@ -7,6 +7,7 @@ homeRouter.use(authMiddleware)
 
 
 
-// homeRouter.get("/login2",user2)
+homeRouter.get("/login2",user2)
+
 
 module.exports = homeRouter;

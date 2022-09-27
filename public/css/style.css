@@ -319,5 +319,19 @@ body { font-family: sans-serif; }
 }
 
 
+.add-to-cart{
+  width: 318px;
+  font-weight: bold;
+}
+.card-text{
+  padding-left: 90px;
+  font-weight: bold;
+
+}
+h4{
+  font-weight: bold;
+  padding-left: 110px;
+}
+
 
 
