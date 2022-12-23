@@ -15,11 +15,11 @@
   
   nav {  
   position:relative ;
-  margin-top: auto;
+  margin-top: 0px;
 	display: flex;  
 	justify-content: space-around;  
 	align-items: center;  
-	min-height: 8vh;  
+	min-height: 10vh;  
 	background-color: teal;  
 	font-family: "Montserrat", sans-serif;  
   }
@@ -34,6 +34,7 @@
   .nav-links {  
 	display: flex;  
 	justify-content: space-around;  
+  margin-top: 25px;
 	width: 30%;  
   }
   

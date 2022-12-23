@@ -17,7 +17,7 @@ nav {
 display: flex;  
 justify-content: space-around;  
 align-items: center;  
-min-height: 8vh;  
+min-height: 10vh;  
 background-color: teal;  
 font-family: "Montserrat", sans-serif;  
 }
@@ -31,8 +31,9 @@ font-size: 20px;
 
 .nav-links {  
 display: flex;  
-justify-content: space-around;  
+/* justify-content: space-around;   */
 width: 30%;  
+margin-top: 20px;
 }
 
 .nav-links li {  

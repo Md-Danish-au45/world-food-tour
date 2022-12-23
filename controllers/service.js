@@ -4,7 +4,7 @@ const aboutModel = require("../models/service")
 // get about
 
 const getService = (req, res) =>{
-    res.sendFile("/home/danish/Desktop/project1 (copy)/public/html/service.html")
+    res.sendFile("/home/danish/Desktop/projects/project1 (copy)/public/html/service.html")
 }
 
 // post about

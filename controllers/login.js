@@ -18,13 +18,14 @@ const postSignup = async(req, res) => {
     }
 }
 
+
 const getSignup = (req, res) =>{
-    res.sendFile("/home/danish/Desktop/project1 (copy)/public/html/signup.html")
+    res.sendFile("/home/danish/Desktop/projects/project1 (copy)/public/html/signup.html")
 }
 
 // getting login data
 const getLogin = (req, res) =>{
-    res.sendFile("/home/danish/Desktop/project1 (copy)/public/html/login.html")
+    res.sendFile("/home/danish/Desktop/projects/project1 (copy)/public/html/login.html")
 }
 
 // posting login data and creating json token 

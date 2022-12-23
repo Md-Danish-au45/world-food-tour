@@ -2,7 +2,7 @@ const express = require("express");
 const contactModel = require("../models/contact")
 
 const getContact = async(req, res) => {
-    res.sendFile("/home/danish/Desktop/project1 (copy)/public/html/contact.html")
+    res.sendFile("/home/danish/Desktop/projects/project1 (copy)/public/html/contact.html")
 }
 
 // post

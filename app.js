@@ -1,12 +1,14 @@
 const express = require("express")
 const app = express()
-require('dotenv').config()
 const { initDB } = require('./dbConfig')
 const homeRouter = require("./routes/auth")
 const userRouter = require("./routes/user")
 const cookieParse = require("cookie-parser") 
-const nodemailer = require("nodemailer")
+// const nodemailer = require("nodemailer")
 const bodyParser = require("body-parser")
+const dotenv = require("dotenv")
+
+dotenv.config({path:"./.env"})
 
 app.use(express.json())
 app.use(express.static("public"))
@@ -21,8 +23,10 @@ app.use("/",homeRouter)
 
 
 // calling DB
-
 initDB()
-app.listen(6500,(req, res)=>{
+
+
+app.listen(6600,(req, res)=>{
     console.log("server is started at port 6500")
 })
+
